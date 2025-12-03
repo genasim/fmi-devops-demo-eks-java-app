@@ -7,7 +7,7 @@ replicaCount: 1
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: 978480737165.dkr.ecr.ap-south-1.amazonaws.com/rest-java-api
+  repository: 607402046977.dkr.ecr.eu-central-1.amazonaws.com/fmi-devops-eks-demo-ecr-repo
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
